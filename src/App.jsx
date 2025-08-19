@@ -180,12 +180,12 @@ function App() {
                     Have a Question? Get it Solved in Minutes on Videocall.
                 </h2>
                 <p className="text-gray-400 text-lg mb-12">
-                    Our 24/7 doubt-solving service is now on Telegram for instant access. Try it completely free for 2 days!
+                    Our 24/7 doubt-solving service is now on Telegram for instant access. <strong className="text-white">Try it completely free for 2 days!</strong>
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 text-left mb-12">
                      <div className="bg-gray-900 p-6 rounded-lg border-t-4 border-[#D4AF37]">
                         <div className="flex items-center gap-4 mb-3"><span className="bg-[#D4AF37] text-black text-2xl font-bold rounded-full w-10 h-10 flex items-center justify-center">1</span><h3 className="text-xl font-bold">Find Us</h3></div>
-                        <p className="text-gray-400">Open Telegram & search for our bot: <strong className="text-white">@aspiresetgodoubt</strong></p>
+                        <p className="text-gray-400">Open Telegram & search for our bot: <strong className="text-white">@Studentdoubt_bot</strong></p>
                     </div>
                     <div className="bg-gray-900 p-6 rounded-lg border-t-4 border-[#D4AF37]">
                         <div className="flex items-center gap-4 mb-3"><span className="bg-[#D4AF37] text-black text-2xl font-bold rounded-full w-10 h-10 flex items-center justify-center">2</span><h3 className="text-xl font-bold">Register</h3></div>
@@ -204,7 +204,7 @@ function App() {
                         <p className="text-gray-400">After your trial, continue with our service by paying a minimal fee.</p>
                     </div>
                 </div>
-                <a href="#" className="bg-[#D4AF37] text-black font-bold py-3 px-10 rounded-lg transition-transform duration-300 hover:scale-105 hover:bg-yellow-500 text-lg inline-block">
+                <a href="https://t.me/Studentdoubt_bot" className="bg-[#D4AF37] text-black font-bold py-3 px-10 rounded-lg transition-transform duration-300 hover:scale-105 hover:bg-yellow-500 text-lg inline-block">
                     Ask Your First Doubt Now
                 </a>
             </div>
@@ -222,9 +222,9 @@ function App() {
                     <li className="font-bold">For any issues, call our helpline: <span className="text-white">+91 96250 60017</span></li>
                 </ol>
                 <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center">
-                    <a href="#" className="bg-yellow-500 text-black font-bold py-3 px-6 rounded-lg text-center transition-transform hover:scale-105 flex-1">Book Home Tuitions Demo</a>
-                    <a href="#" className="border-2 border-yellow-500 text-yellow-500 font-bold py-3 px-6 rounded-lg text-center transition-all hover:bg-yellow-500 hover:text-black flex-1">Book Online Class Demo</a>
-                    <a href="#" className="border-2 border-yellow-500 text-yellow-500 font-bold py-3 px-6 rounded-lg text-center transition-all hover:bg-yellow-500 hover:text-black flex-1">Book Group Class Demo</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0cB6B8HOaIZWMeNG2cdoe8e_xgxlCHMSohDqHnZAjrqnhFQ/viewform?usp=header" className="bg-yellow-500 text-black font-bold py-3 px-6 rounded-lg text-center transition-transform hover:scale-105 flex-1">Book Home Tuitions Demo</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0cB6B8HOaIZWMeNG2cdoe8e_xgxlCHMSohDqHnZAjrqnhFQ/viewform?usp=header" className="border-2 border-yellow-500 text-yellow-500 font-bold py-3 px-6 rounded-lg text-center transition-all hover:bg-yellow-500 hover:text-black flex-1">Book Online Class Demo</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0cB6B8HOaIZWMeNG2cdoe8e_xgxlCHMSohDqHnZAjrqnhFQ/viewform?usp=header" className="border-2 border-yellow-500 text-yellow-500 font-bold py-3 px-6 rounded-lg text-center transition-all hover:bg-yellow-500 hover:text-black flex-1">Book Group Class Demo</a>
                 </div>
             </div>
         </section>
