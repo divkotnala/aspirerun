@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Typewriter } from 'react-simple-typewriter';
 import logo from "./assets/logoshort.png";
 // Reverted to using your original hero image
-import img1 from "./assets/img1bg.png"; 
+import img1 from "./assets/img1bg.png";
 
 // Icons
 import { FaUserGraduate, FaComments, FaDesktop, FaBookOpen, FaChartLine, FaQuestionCircle, FaChevronDown, FaChevronUp, FaTwitter, FaLinkedin, FaFacebook, FaUsers, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
@@ -44,20 +44,27 @@ function App() {
 
   return (
     <>
+      <title>Personalised Home Tuitions & 24/7 Online Doubt Support | AspireSetGo</title>
+      <meta
+        name="description"
+        content="Struggling with studies? Get expert home tutors and instant 24/7 doubt support with AspireSetGo. We offer personalised learning, study material, and stress-free exam prep. Start learning with confidence today!"
+      />
+      <link rel="canonical" href="https://aspiresetgo.com/" />
+
       <div className="bg-black/93 min-h-screen w-full text-white font-sans">
         {/* UPDATED Header */}
         <header className="p-3 px-6 text-[#D4AF37] flex justify-between items-center bg-black/96 shadow-md text-sm sticky top-0 z-50">
           <div className="flex items-center gap-6">
             <img src={logo} alt="Logo" width="60" />
             <div className=" md:flex flex-col text-white">
-                <div className="flex items-center gap-2">
-                    <FaPhoneAlt className="text-[#D4AF37]" />
-                    <span>+91 96250 60017</span>
-                </div>
-                <div className="flex items-center gap-2">
-                    <FaEnvelope className="text-[#D4AF37]" />
-                    <span>aspiresetgo@gmail.com</span>
-                </div>
+              <div className="flex items-center gap-2">
+                <FaPhoneAlt className="text-[#D4AF37]" />
+                <span>+91 96250 60017</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <FaEnvelope className="text-[#D4AF37]" />
+                <span>aspiresetgo@gmail.com</span>
+              </div>
             </div>
           </div>
           <a href="#demo-booking-section" className="bg-[#D4AF37] text-black font-bold py-2 px-5 rounded-lg transition-transform duration-300 hover:scale-105 text-center">
@@ -97,7 +104,7 @@ function App() {
               <a href="#demo-booking-section" className="bg-[#D4AF37] text-black font-bold py-3 px-8 rounded-lg transition-transform duration-300 hover:scale-105 hover:bg-yellow-500">
                 Book Free Home Tuitions Demo
               </a>
-              <a 
+              <a
                 href="#doubt-section"
                 className="bg-transparent border-2 border-gray-400 text-gray-300 font-semibold py-3 px-8 rounded-lg transition-all duration-300 hover:bg-gray-300 hover:text-black hover:border-gray-300 text-center"
               >
@@ -130,103 +137,103 @@ function App() {
               <h3 className="text-xl font-bold mb-2">Personalized Attention & Tracking</h3>
               <p className="text-gray-400">We create custom learning plans and track your performance for guaranteed improvement.</p>
             </div>
-             <div className="bg-gray-900 p-6 rounded-lg text-center transform hover:-translate-y-2 transition-transform duration-300 md:col-span-2 lg:col-span-1">
+            <div className="bg-gray-900 p-6 rounded-lg text-center transform hover:-translate-y-2 transition-transform duration-300 md:col-span-2 lg:col-span-1">
               <FaUsers className="text-5xl text-[#D4AF37] mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-2">Small Group Online Classes</h3>
               <p className="text-gray-400">Join our focused online batches with a maximum of 5-8 students for better interaction.</p>
             </div>
           </div>
         </section>
-        
+
         {/* UPDATED "Our Core Features" Section */}
         <section className="py-20 px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-[#D4AF37]">Our Core Features</h2>
-            <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
-                <div className="flex items-start gap-4">
-                    <div className="bg-[#D4AF37] p-3 rounded-full mt-1"><FaDesktop className="text-xl text-black" /></div>
-                    <div>
-                        <h3 className="text-xl font-bold">High-Quality Live Classes</h3>
-                        <p className="text-gray-400">Engage in interactive online classes that are as effective as offline learning.</p>
-                    </div>
-                </div>
-                <div className="flex items-start gap-4">
-                    <div className="bg-[#D4AF37] p-3 rounded-full mt-1"><FaUserGraduate className="text-xl text-black" /></div>
-                    <div>
-                        <h3 className="text-xl font-bold">Personalised Learning & Home Tutors</h3>
-                        <p className="text-gray-400">Benefit from tailored study plans and the expertise of our dedicated in-home tutors.</p>
-                    </div>
-                </div>
-                <div className="flex items-start gap-4">
-                    <div className="bg-[#D4AF37] p-3 rounded-full mt-1"><FaBookOpen className="text-xl text-black" /></div>
-                    <div>
-                        <h3 className="text-xl font-bold">Free Study Materials</h3>
-                        <p className="text-gray-400">Access a comprehensive library of notes, practice questions, and mock tests.</p>
-                    </div>
-                </div>
-                <div className="flex items-start gap-4">
-                    <div className="bg-[#D4AF37] p-3 rounded-full mt-1"><FaQuestionCircle className="text-xl text-black" /></div>
-                    <div>
-                        <h3 className="text-xl font-bold">No-Judgment Doubt Solving</h3>
-                        <p className="text-gray-400">Ask any doubt, anytime. We don't judge your questions, we just solve them.</p>
-                    </div>
-                </div>
+          <h2 className="text-3xl font-bold text-center mb-12 text-[#D4AF37]">Our Core Features</h2>
+          <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+            <div className="flex items-start gap-4">
+              <div className="bg-[#D4AF37] p-3 rounded-full mt-1"><FaDesktop className="text-xl text-black" /></div>
+              <div>
+                <h3 className="text-xl font-bold">High-Quality Live Classes</h3>
+                <p className="text-gray-400">Engage in interactive online classes that are as effective as offline learning.</p>
+              </div>
             </div>
+            <div className="flex items-start gap-4">
+              <div className="bg-[#D4AF37] p-3 rounded-full mt-1"><FaUserGraduate className="text-xl text-black" /></div>
+              <div>
+                <h3 className="text-xl font-bold">Personalised Learning & Home Tutors</h3>
+                <p className="text-gray-400">Benefit from tailored study plans and the expertise of our dedicated in-home tutors.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="bg-[#D4AF37] p-3 rounded-full mt-1"><FaBookOpen className="text-xl text-black" /></div>
+              <div>
+                <h3 className="text-xl font-bold">Free Study Materials</h3>
+                <p className="text-gray-400">Access a comprehensive library of notes, practice questions, and mock tests.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="bg-[#D4AF37] p-3 rounded-full mt-1"><FaQuestionCircle className="text-xl text-black" /></div>
+              <div>
+                <h3 className="text-xl font-bold">No-Judgment Doubt Solving</h3>
+                <p className="text-gray-400">Ask any doubt, anytime. We don't judge your questions, we just solve them.</p>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* REPLACED SECTION: How to Ask a Doubt */}
         <section id="doubt-section" className="py-20 px-4 bg-black">
-            <div className="text-center max-w-6xl mx-auto">
-                <h2 className="text-3xl font-bold text-center mb-4 text-[#D4AF37]">
-                    Have a Question? Get it Solved in Minutes on Videocall.
-                </h2>
-                <p className="text-gray-400 text-lg mb-12">
-                    Our 24/7 doubt-solving service is now on Telegram for instant access. <strong className="text-white">Try it completely free for 2 days!</strong>
-                </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 text-left mb-12">
-                     <div className="bg-gray-900 p-6 rounded-lg border-t-4 border-[#D4AF37]">
-                        <div className="flex items-center gap-4 mb-3"><span className="bg-[#D4AF37] text-black text-2xl font-bold rounded-full w-10 h-10 flex items-center justify-center">1</span><h3 className="text-xl font-bold">Find Us</h3></div>
-                        <p className="text-gray-400">Open Telegram & search for our bot: <strong className="text-white">@Studentdoubt_bot</strong></p>
-                    </div>
-                    <div className="bg-gray-900 p-6 rounded-lg border-t-4 border-[#D4AF37]">
-                        <div className="flex items-center gap-4 mb-3"><span className="bg-[#D4AF37] text-black text-2xl font-bold rounded-full w-10 h-10 flex items-center justify-center">2</span><h3 className="text-xl font-bold">Register</h3></div>
-                        <p className="text-gray-400">Start the bot and register your mobile number to create an account.</p>
-                    </div>
-                    <div className="bg-gray-900 p-6 rounded-lg border-t-4 border-[#D4AF37]">
-                        <div className="flex items-center gap-4 mb-3"><span className="bg-[#D4AF37] text-black text-2xl font-bold rounded-full w-10 h-10 flex items-center justify-center">3</span><h3 className="text-xl font-bold">Start Trial</h3></div>
-                        <p className="text-gray-400">Activate your <strong className="text-white">free 2-day trial</strong> and ask your first doubt instantly.</p>
-                    </div>
-                    <div className="bg-gray-900 p-6 rounded-lg border-t-4 border-[#D4AF37]">
-                        <div className="flex items-center gap-4 mb-3"><span className="bg-[#D4AF37] text-black text-2xl font-bold rounded-full w-10 h-10 flex items-center justify-center">4</span><h3 className="text-xl font-bold">Get Expert Help</h3></div>
-                        <p className="text-gray-400">An expert tutor will connect via <strong className="text-white">WhatsApp video call</strong> to solve your doubt. You can rate the tutor or raise a complaint if needed.</p>
-                    </div>
-                    <div className="bg-gray-900 p-6 rounded-lg border-t-4 border-[#D4AF37]">
-                        <div className="flex items-center gap-4 mb-3"><span className="bg-[#D4AF37] text-black text-2xl font-bold rounded-full w-10 h-10 flex items-center justify-center">5</span><h3 className="text-xl font-bold">Continue Learning</h3></div>
-                        <p className="text-gray-400">After your trial, continue with our service by paying a minimal fee.</p>
-                    </div>
-                </div>
-                <a href="https://t.me/Studentdoubt_bot" className="bg-[#D4AF37] text-black font-bold py-3 px-10 rounded-lg transition-transform duration-300 hover:scale-105 hover:bg-yellow-500 text-lg inline-block">
-                    Ask Your First Doubt Now
-                </a>
+          <div className="text-center max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-4 text-[#D4AF37]">
+              Have a Question? Get it Solved in Minutes on Videocall.
+            </h2>
+            <p className="text-gray-400 text-lg mb-12">
+              Our 24/7 doubt-solving service is now on Telegram for instant access. <strong className="text-white">Try it completely free for 2 days!</strong>
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 text-left mb-12">
+              <div className="bg-gray-900 p-6 rounded-lg border-t-4 border-[#D4AF37]">
+                <div className="flex items-center gap-4 mb-3"><span className="bg-[#D4AF37] text-black text-2xl font-bold rounded-full w-10 h-10 flex items-center justify-center">1</span><h3 className="text-xl font-bold">Find Us</h3></div>
+                <p className="text-gray-400">Open Telegram & search for our bot: <strong className="text-white">@Studentdoubt_bot</strong></p>
+              </div>
+              <div className="bg-gray-900 p-6 rounded-lg border-t-4 border-[#D4AF37]">
+                <div className="flex items-center gap-4 mb-3"><span className="bg-[#D4AF37] text-black text-2xl font-bold rounded-full w-10 h-10 flex items-center justify-center">2</span><h3 className="text-xl font-bold">Register</h3></div>
+                <p className="text-gray-400">Start the bot and register your mobile number to create an account.</p>
+              </div>
+              <div className="bg-gray-900 p-6 rounded-lg border-t-4 border-[#D4AF37]">
+                <div className="flex items-center gap-4 mb-3"><span className="bg-[#D4AF37] text-black text-2xl font-bold rounded-full w-10 h-10 flex items-center justify-center">3</span><h3 className="text-xl font-bold">Start Trial</h3></div>
+                <p className="text-gray-400">Activate your <strong className="text-white">free 2-day trial</strong> and ask your first doubt instantly.</p>
+              </div>
+              <div className="bg-gray-900 p-6 rounded-lg border-t-4 border-[#D4AF37]">
+                <div className="flex items-center gap-4 mb-3"><span className="bg-[#D4AF37] text-black text-2xl font-bold rounded-full w-10 h-10 flex items-center justify-center">4</span><h3 className="text-xl font-bold">Get Expert Help</h3></div>
+                <p className="text-gray-400">An expert tutor will connect via <strong className="text-white">WhatsApp video call</strong> to solve your doubt. You can rate the tutor or raise a complaint if needed.</p>
+              </div>
+              <div className="bg-gray-900 p-6 rounded-lg border-t-4 border-[#D4AF37]">
+                <div className="flex items-center gap-4 mb-3"><span className="bg-[#D4AF37] text-black text-2xl font-bold rounded-full w-10 h-10 flex items-center justify-center">5</span><h3 className="text-xl font-bold">Continue Learning</h3></div>
+                <p className="text-gray-400">After your trial, continue with our service by paying a minimal fee.</p>
+              </div>
             </div>
+            <a href="https://t.me/Studentdoubt_bot" className="bg-[#D4AF37] text-black font-bold py-3 px-10 rounded-lg transition-transform duration-300 hover:scale-105 hover:bg-yellow-500 text-lg inline-block">
+              Ask Your First Doubt Now
+            </a>
+          </div>
         </section>
 
         {/* NEW Demo Booking Section (Image Removed) */}
         <section id="demo-booking-section" className="py-20 px-4">
-            <div className="max-w-4xl mx-auto text-center">
-                <h2 className="text-3xl font-bold text-[#D4AF37] mb-4">How to Book Your Free Demo Class</h2>
-                <p className="text-gray-400 mb-6">Booking your free Home or Online Tuition demo is simple. Follow the steps below or call us directly if you need any help.</p>
-                <ol className="list-decimal list-inside text-gray-300 space-y-3 mb-8 inline-block text-left">
-                    <li>Click on your desired demo class button below to open the scheduling form.</li>
-                    <li>Fill in your details, preferred subject, and convenient time slots.</li>
-                    <li>Our team will call you to confirm your booking within a few hours.</li>
-                    <li className="font-bold">For any issues, call our helpline: <span className="text-white">+91 96250 60017</span></li>
-                </ol>
-                <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0cB6B8HOaIZWMeNG2cdoe8e_xgxlCHMSohDqHnZAjrqnhFQ/viewform?usp=header" className="bg-yellow-500 text-black font-bold py-3 px-6 rounded-lg text-center transition-transform hover:scale-105 flex-1">Book Home Tuitions Demo</a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0cB6B8HOaIZWMeNG2cdoe8e_xgxlCHMSohDqHnZAjrqnhFQ/viewform?usp=header" className="border-2 border-yellow-500 text-yellow-500 font-bold py-3 px-6 rounded-lg text-center transition-all hover:bg-yellow-500 hover:text-black flex-1">Book Online Class Demo</a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0cB6B8HOaIZWMeNG2cdoe8e_xgxlCHMSohDqHnZAjrqnhFQ/viewform?usp=header" className="border-2 border-yellow-500 text-yellow-500 font-bold py-3 px-6 rounded-lg text-center transition-all hover:bg-yellow-500 hover:text-black flex-1">Book Group Class Demo</a>
-                </div>
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold text-[#D4AF37] mb-4">How to Book Your Free Demo Class</h2>
+            <p className="text-gray-400 mb-6">Booking your free Home or Online Tuition demo is simple. Follow the steps below or call us directly if you need any help.</p>
+            <ol className="list-decimal list-inside text-gray-300 space-y-3 mb-8 inline-block text-left">
+              <li>Click on your desired demo class button below to open the scheduling form.</li>
+              <li>Fill in your details, preferred subject, and convenient time slots.</li>
+              <li>Our team will call you to confirm your booking within a few hours.</li>
+              <li className="font-bold">For any issues, call our helpline: <span className="text-white">+91 96250 60017</span></li>
+            </ol>
+            <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0cB6B8HOaIZWMeNG2cdoe8e_xgxlCHMSohDqHnZAjrqnhFQ/viewform?usp=header" className="bg-yellow-500 text-black font-bold py-3 px-6 rounded-lg text-center transition-transform hover:scale-105 flex-1">Book Home Tuitions Demo</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0cB6B8HOaIZWMeNG2cdoe8e_xgxlCHMSohDqHnZAjrqnhFQ/viewform?usp=header" className="border-2 border-yellow-500 text-yellow-500 font-bold py-3 px-6 rounded-lg text-center transition-all hover:bg-yellow-500 hover:text-black flex-1">Book Online Class Demo</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0cB6B8HOaIZWMeNG2cdoe8e_xgxlCHMSohDqHnZAjrqnhFQ/viewform?usp=header" className="border-2 border-yellow-500 text-yellow-500 font-bold py-3 px-6 rounded-lg text-center transition-all hover:bg-yellow-500 hover:text-black flex-1">Book Group Class Demo</a>
             </div>
+          </div>
         </section>
 
         {/* UPDATED Testimonials Section */}
@@ -260,11 +267,11 @@ function App() {
 
         {/* UPDATED Final CTA Section */}
         <section className="py-20 px-4 text-center bg-black">
-            <h2 className="text-3xl font-bold text-white mb-4">Ready to Start Your Success Story?</h2>
-            <p className="text-gray-400 max-w-2xl mx-auto mb-8">Join hundreds of students who are achieving their academic goals with AspireSetGO. Your free home tuition demo class is just one click away.</p>
-            <a href="#demo-booking-section" className="bg-[#D4AF37] text-black font-bold py-4 px-10 rounded-lg transition-transform duration-300 hover:scale-105 hover:bg-yellow-500 text-lg">
-                Book Free Home Tuitions Demo
-            </a>
+          <h2 className="text-3xl font-bold text-white mb-4">Ready to Start Your Success Story?</h2>
+          <p className="text-gray-400 max-w-2xl mx-auto mb-8">Join hundreds of students who are achieving their academic goals with AspireSetGO. Your free home tuition demo class is just one click away.</p>
+          <a href="#demo-booking-section" className="bg-[#D4AF37] text-black font-bold py-4 px-10 rounded-lg transition-transform duration-300 hover:scale-105 hover:bg-yellow-500 text-lg">
+            Book Free Home Tuitions Demo
+          </a>
         </section>
 
         {/* UPDATED Footer */}
