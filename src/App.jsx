@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Typewriter } from 'react-simple-typewriter';
 import logo from "./assets/logoshort.png";
-// Reverted to using your original hero image
 import img1 from "./assets/img1bg.png";
 
 // Icons
@@ -52,7 +51,7 @@ function App() {
       <link rel="canonical" href="https://aspiresetgo.com/" />
 
       <div className="bg-black/93 min-h-screen w-full text-white font-sans">
-        {/* UPDATED Header */}
+        {/* === HEADER: FIXED === */}
         <header className="p-3 px-6 text-[#D4AF37] flex justify-between items-center bg-black/96 shadow-md text-sm sticky top-0 z-50">
           <div className="flex items-center gap-6">
             <img src={logo} alt="Logo" width="60" />
@@ -72,10 +71,9 @@ function App() {
           </a>
         </header>
 
-        {/* UPDATED Hero Section */}
+        {/* === HERO SECTION: FIXED === */}
         <section className="m-0 p-8 w-full h-auto lg:h-[calc(100vh-85px)] flex flex-col lg:flex-row items-center justify-center">
           <div className="flex-1 flex flex-col items-center lg:items-start text-center lg:text-left gap-6 mt-10 lg:mt-0">
-            {/* ADDED min-h to fix layout shift */}
             <h1 className="text-[#D4AF37] text-4xl lg:text-5xl font-bold min-h-[120px] md:min-h-[150px]">
               AspireSetGO Provides:{" "}
               <span className="text-gray-200">
@@ -100,8 +98,7 @@ function App() {
               Unlock your potential with expert guidance from IITians & NITians, 24/7 doubt solving, and a learning experience designed for you.
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-4">
-              {/* UPDATED Button Text */}
-              <a href="#demo-booking-section" className="bg-[#D4AF37] text-black font-bold py-3 px-8 rounded-lg transition-transform duration-300 hover:scale-105 hover:bg-yellow-500">
+              <a href="#demo-booking-section" className="bg-[#D4AF37] text-black font-bold py-3 px-6 sm:px-8 rounded-lg transition-transform duration-300 hover:scale-105 hover:bg-yellow-500">
                 Book Free Home Tuitions Demo
               </a>
               <a
@@ -113,12 +110,11 @@ function App() {
             </div>
           </div>
           <div className="flex-1 mt-10 lg:mt-0 flex justify-center">
-            {/* REVERTED Image Source to original img1 */}
             <img src={img1} alt="Student Learning" width="350" className="rounded-lg shadow-2xl shadow-yellow-500/20" />
           </div>
         </section>
 
-        {/* UPDATED "Why Choose Us?" Section */}
+        {/* "Why Choose Us?" Section */}
         <section className="py-20 px-4 bg-black">
           <h2 className="text-3xl font-bold text-center mb-12 text-[#D4AF37]">Why AspireSetGO?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
@@ -145,7 +141,7 @@ function App() {
           </div>
         </section>
 
-        {/* UPDATED "Our Core Features" Section */}
+        {/* "Our Core Features" Section */}
         <section className="py-20 px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-[#D4AF37]">Our Core Features</h2>
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
@@ -180,7 +176,7 @@ function App() {
           </div>
         </section>
 
-        {/* REPLACED SECTION: How to Ask a Doubt */}
+        {/* How to Ask a Doubt Section */}
         <section id="doubt-section" className="py-20 px-4 bg-black">
           <div className="text-center max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-4 text-[#D4AF37]">
@@ -217,7 +213,7 @@ function App() {
           </div>
         </section>
 
-        {/* NEW Demo Booking Section (Image Removed) */}
+        {/* Demo Booking Section */}
         <section id="demo-booking-section" className="py-20 px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-[#D4AF37] mb-4">How to Book Your Free Demo Class</h2>
@@ -236,7 +232,7 @@ function App() {
           </div>
         </section>
 
-        {/* UPDATED Testimonials Section */}
+        {/* Testimonials Section */}
         <section className="py-20 px-4 bg-black">
           <h2 className="text-3xl font-bold text-center mb-12 text-[#D4AF37]">What Our Students Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -265,16 +261,16 @@ function App() {
           </div>
         </section>
 
-        {/* UPDATED Final CTA Section */}
+        {/* === FINAL CTA SECTION: FIXED === */}
         <section className="py-20 px-4 text-center bg-black">
           <h2 className="text-3xl font-bold text-white mb-4">Ready to Start Your Success Story?</h2>
           <p className="text-gray-400 max-w-2xl mx-auto mb-8">Join hundreds of students who are achieving their academic goals with AspireSetGO. Your free home tuition demo class is just one click away.</p>
-          <a href="#demo-booking-section" className="bg-[#D4AF37] text-black font-bold py-4 px-10 rounded-lg transition-transform duration-300 hover:scale-105 hover:bg-yellow-500 text-lg">
+          <a href="#demo-booking-section" className="bg-[#D4AF37] text-black font-bold py-4 px-6 sm:px-10 rounded-lg transition-transform duration-300 hover:scale-105 hover:bg-yellow-500 text-lg">
             Book Free Home Tuitions Demo
           </a>
         </section>
 
-        {/* UPDATED Footer */}
+        {/* Footer */}
         <footer className="bg-black text-gray-400 py-10 px-4 text-center">
           <img src={logo} alt="Logo" width="70" className="mx-auto mb-4" />
           <div className="flex justify-center gap-6 mb-6">
