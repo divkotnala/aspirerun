@@ -56,7 +56,7 @@ function App() {
         <header className="p-3 px-6 text-[#D4AF37] flex justify-between items-center bg-black/96 shadow-md text-sm sticky top-0 z-50">
           <div className="flex items-center gap-6">
             <img src={logo} alt="Logo" width="60" />
-            <div className=" md:flex flex-col text-white">
+            <div className="hidden md:flex flex-col text-white">
               <div className="flex items-center gap-2">
                 <FaPhoneAlt className="text-[#D4AF37]" />
                 <span>+91 96250 60017</span>
